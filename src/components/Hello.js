@@ -96,7 +96,7 @@ export const Hello = () => {
                     <FirstText>
                         Mi nombre es <strong>Alejandro Manza</strong>, nací en
                         Argentina, llevo 6 años de experiencia en frontend y mi
-                        objectivo como profesional sigue siendo aprender
+                        objetivo como profesional sigue siendo aprender
                         constantemente, manteniéndome actualizado a las últimas
                         tecnologías.
                     </FirstText>
