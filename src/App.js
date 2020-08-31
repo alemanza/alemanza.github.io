@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef } from 'react'
+import './App.css'
+import { Parallax } from 'react-spring/renderprops-addons'
+import {
+    Header,
+    Hero,
+    Hello,
+    Works,
+    Degrees,
+    Skills,
+    Footer,
+} from './components'
+import { useMediaQuerie } from './hooks/useMediaQuerie'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const parallax = useRef()
+    const querie = useMediaQuerie()
+    const pages = () => {
+        const sizes = { sm: 11.5, md: 9.1, lg: 8.1 }
+        return sizes[querie]
+    }
+    return (
+        <div>
+            <Parallax pages={pages()} ref={parallax}>
+                <Hero />
+                <Header parallax={parallax} />
+                <Hello />
+                <Works />
+                <Degrees />
+                <Skills />
+                <Footer />
+            </Parallax>
+        </div>
+    )
 }
 
-export default App;
+export default App

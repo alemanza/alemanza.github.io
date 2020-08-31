@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": ["react-app", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "jsxBracketSameLine": true,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "printWidth": 80,
+        "semi": false,
+        "tabWidth": 4,
+        "overrides": [
+          {
+            "files": ["*.yml"],
+            "options": {
+              "tabWidth": 2
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
