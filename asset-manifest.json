@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.36775fa1.chunk.css",
+    "main.js": "/cv/static/js/main.ce83d1e4.chunk.js",
+    "main.js.map": "/cv/static/js/main.ce83d1e4.chunk.js.map",
+    "runtime-main.js": "/cv/static/js/runtime-main.c17789b0.js",
+    "runtime-main.js.map": "/cv/static/js/runtime-main.c17789b0.js.map",
+    "static/js/2.e1350a41.chunk.js": "/cv/static/js/2.e1350a41.chunk.js",
+    "static/js/2.e1350a41.chunk.js.map": "/cv/static/js/2.e1350a41.chunk.js.map",
+    "index.html": "/cv/index.html",
+    "precache-manifest.66eb3e78d11943a9e5b10d035f84e244.js": "/cv/precache-manifest.66eb3e78d11943a9e5b10d035f84e244.js",
+    "service-worker.js": "/cv/service-worker.js",
+    "static/css/main.36775fa1.chunk.css.map": "/cv/static/css/main.36775fa1.chunk.css.map",
+    "static/js/2.e1350a41.chunk.js.LICENSE.txt": "/cv/static/js/2.e1350a41.chunk.js.LICENSE.txt",
+    "static/media/bbva.jpg": "/cv/static/media/bbva.5a4662ee.jpg",
+    "static/media/clarin.jpg": "/cv/static/media/clarin.6d763009.jpg",
+    "static/media/despe.jpg": "/cv/static/media/despe.c0a804c3.jpg",
+    "static/media/figma.svg": "/cv/static/media/figma.cb019c19.svg",
+    "static/media/git.svg": "/cv/static/media/git.d4719199.svg",
+    "static/media/graphql.svg": "/cv/static/media/graphql.bb7884e0.svg",
+    "static/media/htmlcss3.svg": "/cv/static/media/htmlcss3.68ff7c05.svg",
+    "static/media/App.css": "/cv/static/media/icons.c6025970.svg",
+    "static/media/js.svg": "/cv/static/media/js.80cebbbf.svg",
+    "static/media/line.svg": "/cv/static/media/line.034bd2cc.svg",
+    "static/media/me.jpg": "/cv/static/media/me.09eebfca.jpg",
+    "static/media/mongo.svg": "/cv/static/media/mongo.9dc84c91.svg",
+    "static/media/node.svg": "/cv/static/media/node.671a3ffe.svg",
+    "static/media/react.svg": "/cv/static/media/react.fd2169f4.svg",
+    "static/media/sketch.svg": "/cv/static/media/sketch.06ae44f6.svg",
+    "static/media/trive.jpg": "/cv/static/media/trive.8504d536.jpg",
+    "static/media/vue.svg": "/cv/static/media/vue.2f7a9df9.svg",
+    "static/media/waavi.jpg": "/cv/static/media/waavi.75085ba5.jpg",
+    "static/media/zeplin.svg": "/cv/static/media/zeplin.6604a2ab.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c17789b0.js",
+    "static/js/2.e1350a41.chunk.js",
+    "static/css/main.36775fa1.chunk.css",
+    "static/js/main.ce83d1e4.chunk.js"
+  ]
+}
